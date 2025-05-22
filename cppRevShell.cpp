@@ -7,6 +7,10 @@
 #pragma comment(lib, "Ws2_32.lib")
 
 #define DEFAULT_BUFLEN 1024
+#define UNICODE
+#define _UNICODE
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+
 
 int InitializeWinsock() {
     WSADATA wsData;
