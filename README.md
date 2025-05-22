@@ -1,1 +1,1 @@
-# ShellsTo Compile in Linux first install the following packages```shellsudo apt install mingw-w64```To Compile```shellx86_64-w64-mingw32-g++ reverse.cpp -o reverse.exe -lws2_32```
+# ShellsTo Compile in Linux first install the following packages```shellsudo apt install mingw-w64```To Compile```shellx86_64-w64-mingw32-g++ reverse.cpp -o reverse.exe -static -lws2_32```
